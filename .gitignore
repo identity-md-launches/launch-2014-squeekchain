@@ -1,0 +1,9 @@
+# Foundry build artefacts
+out/
+cache/
+broadcast/
+
+# Leftover of the OpenZeppelin clone used to vendor lib/openzeppelin-contracts/contracts.
+# The sandbox pins any .gitmodules file read-only, so the empty directory could not be deleted.
+# Nothing in it is part of the project.
+lib/oz-tmp/
